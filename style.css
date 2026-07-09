@@ -6,19 +6,20 @@
 }
 
 body{
-    background: rgb(2, 2, 65);
+    background: rgb(4, 54, 145);
     display:flex;
     justify-content:center;
     align-items:center;
     min-height:100vh;
+    border-radius-top-left: 50px;
 }
-
 .form{
-    background:#fff;
+    background:#e4baba;
     padding:30px;
     width:400px;
-    border-radius:15px;
-    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    box-shadow:0 10px 25px rgba(224, 218, 218, 0.3);s
 }
 
 .form h2{
@@ -35,15 +36,15 @@ body{
 .form-group input{
     width:100%;
     padding:12px 40px;
-    border:1px solid #ccc;
-    border-radius:8px;
+    border: 1px solid #ccc;
+    border-radius:20px;
     font-size:16px;
     outline:none;
 }
 
 .form-group input:focus{
-    border-color:#ff7300;
-    box-shadow: 10px 10px 10px white;
+    border-color:#532906;
+    /* box-shadow: 10px 10px 10px white; */
 }
 
 .prefix{
@@ -65,13 +66,13 @@ button{
     width:100%;
     padding:12px;
     border:none;
-    border-radius:8px;
-    background:#ff7300;
+    border-radius:20px;
+    background:#522602;
     color:#fff;
     font-size:16px;
     cursor:pointer;
 }
 
 button:hover{
-    background:#e56700;
+    background:#cf5e02;
 }
